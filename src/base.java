@@ -14,7 +14,7 @@ public class base {
         File appDir = new File("src");
         File app = new File(appDir, "app-debug.apk");
 
-        cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 7 API 35");
+        cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 7a API 35");
         cap.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
         cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
 
